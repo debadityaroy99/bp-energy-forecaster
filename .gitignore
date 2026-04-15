@@ -27,11 +27,10 @@ desktop.ini
 .idea/
 *.cursor
 
-# Large raw data file — use Git LFS or download separately
-data/world-crude-oil-price-vs-oil-consumption.csv
+# Raw data is included in the repo (1.7 MB — within GitHub limits)
 
-# Streamlit local state
-.streamlit/
+# Streamlit secrets only — config.toml is committed
+.streamlit/secrets.toml
 
 # TensorFlow / Keras saved models
 *.h5
