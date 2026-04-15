@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.cursor
+
+# Large raw data file — use Git LFS or download separately
+data/world-crude-oil-price-vs-oil-consumption.csv
+
+# Streamlit local state
+.streamlit/
+
+# TensorFlow / Keras saved models
+*.h5
+*.keras
+saved_model/
